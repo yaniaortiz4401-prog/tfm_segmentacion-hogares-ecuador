@@ -54,12 +54,12 @@ Resultado: 6 segmentos de hogares (35 397 hogares) y su lectura como segmentos p
 ## Instalación y ejecución
 
 ```bash
-git clone <URL-DEL-REPOSITORIO>
-cd <carpeta>
+git clone https://github.com/yaniaortiz4401-prog/tfm_segmentacion-hogares-ecuador
+cd tfm_segmentacion-hogares-ecuador
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python run_all.py          # ~10 min (la validación por bootstrap es la parte lenta)
-pytest -q                  # 8 pruebas
+pytest -q                  # 8 pruebas; ejecutar DESPUÉS de run_all.py
 ```
 
 Si los datos están en otra carpeta: `TFM_DATA_RAW=/ruta/a/los/csv python run_all.py`
@@ -83,5 +83,4 @@ Código bajo licencia MIT (ver `LICENSE`). Los datos pertenecen al INEC y se rig
 
 ## Cómo citar
 
-Peña Ortiz, Y. M. (2026). *Segmentación de hogares ecuatorianos según su perfil socioeconómico y financiero…*
-[Trabajo Fin de Máster, UNIR]. Código: <URL-DEL-REPOSITORIO>.
+Peña Ortiz, Y. M. (2026). Segmentación de hogares ecuatorianos según su perfil socioeconómico y financiero… [Trabajo Fin de Máster, UNIR]. Código: https://github.com/yaniaortiz4401-prog/tfm_segmentacion-hogares-ecuador
