@@ -1,0 +1,25 @@
+{
+  "filas": 35397,
+  "variables_algoritmo": [
+    "log_ing_cor_per",
+    "tasa_ahorro_w",
+    "NUMPERS",
+    "nivins_j",
+    "tiene_auto",
+    "pct_alimentos_bebidas",
+    "pct_bebidas_alcoholicas_tabaco",
+    "pct_prendas_vestir_calzado",
+    "pct_vivienda_agua_electricidad",
+    "pct_muebles_hogar",
+    "pct_salud",
+    "pct_transporte",
+    "pct_comunicaciones",
+    "pct_recreacion_cultura",
+    "pct_educacion",
+    "pct_restaurantes_hoteles",
+    "pct_bienes_serv_diversos",
+    "pct_otros_gastos"
+  ],
+  "winsor_inferior": -0.7678956928810963,
+  "winsor_superior": 0.6349901910610712
+}

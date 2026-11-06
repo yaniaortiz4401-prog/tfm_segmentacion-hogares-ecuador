@@ -1,0 +1,18 @@
+{
+  "filas_crudas": 35398,
+  "columnas_crudas": 271,
+  "eliminados_sin_ingreso_o_gasto": 1,
+  "identidades": {
+    "ing_cor_tot = ing_mon_cor + ing_no_mon": 1.000444171950221e-11,
+    "gas_cor_tot = gas_mon_cor + gas_nm_cor": 1.000444171950221e-11,
+    "gas_mon_cor = gas_gru_cor + ot_gas_mon": 3.092281986027956e-11,
+    "sum(d1..d13) = gas_gru_cor": 1.8189894035458565e-12,
+    "ing_cor_per = ing_cor_tot / NUMPERS": 2.000888343900442e-11
+  },
+  "pct_gasto_monetario_en_otros": 0.06928727757222271,
+  "eliminados_no_positivos": 0,
+  "filas_finales": 35397,
+  "columnas_finales": 51,
+  "hogares_sin_gasto_monetario": 26,
+  "nulos_en_variables_base": 0
+}

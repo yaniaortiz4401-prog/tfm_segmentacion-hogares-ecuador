@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+# Los datos crudos pesados no se versionan; solo el archivo agregado de hogares (30 MB)
+data/raw/*
+!data/raw/ENIGHUR25_HOGARES_AGREGADOS.csv
+!data/raw/.gitkeep
+# Datasets derivados grandes (se regeneran con run_all.py)
+data/processed/*.csv
+!data/processed/.gitkeep
